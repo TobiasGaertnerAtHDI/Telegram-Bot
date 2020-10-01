@@ -67,7 +67,7 @@ class TelegramBot:
             self.outgoing_message_text = 'Jetzt haben wir es gleich schon geschafft💪.\nKannst du uns noch schnell deine Adresse mitteilen (Straße+Hausnummer,PLZ+Ort)?'
             success = self.send_message()
 
-        if self.incoming_message_text == 'paulstrasse 15,31067 hannover':
+        if self.incoming_message_text == 'hauptstraße 15, 30659 hannover':
             self.outgoing_message_text =  'Zur Berechnung des günstigsten Preises benötigen wir nun noch eine Angabe wie oft du in den letzen 3 Jahren Schäden gemeldet hast.\n /0  \n/1  \n/2 oder mehr'
             success = self.send_message()
 
@@ -84,7 +84,7 @@ class TelegramBot:
             self.outgoing_message_text = 'Dann wären wir jetzt fertig.\nUnser Mega-Angebot für dich lautet :\nEine Privat-Haftpflichtversicherung für nur 50 Euro im Jahr‼️\nBitte bestätige mit deinem Vor und Nachnamen, dass du das Angebot anehmen möchtest.\nMöchtest du das Angebot nicht anehmen, drücke auf /Abbrechen.'
             success = self.send_message()
 
-        if self.incoming_message_text == 'bastian goerlich':
+        if self.incoming_message_text == 'hans dieter':
             self.outgoing_message_text = 'Herzlichen Glückwunsch zu deiner neuen Haftpflichtversicherung! 🎉🎉 \nMit der Eingabe deiner Email-Adresse kriegst du nun alle nötigen Dokumente zugeschickt.\n Falls du dich für eine weitere Versicherung interessierst, besuche uns gerne auf unserer Internetadresse : www.hdi.de. '
             success = self.send_message()
 
@@ -92,7 +92,7 @@ class TelegramBot:
             self.outgoing_message_text = 'Oh, das ist ja schade. Falls du dich für eins unserer anderen Angebote interessierst, besuche uns auf unserer Internetseite: www.hdi.de\n Einen schönen Tag noch und auf Wiedersehen!👋'
             success = self.send_message()
 
-        if self.incoming_message_text == 'bastian.goerlich@gmx.net':
+        if self.incoming_message_text == 'hans.dieter@gmx.net':
             self.outgoing_message_text = 'Vielen herzlichen Dank für dein Vertrauen in die HDI. Die Dokumente sollten nun zu dir unterwegs sein📧.\nEinen schönen Tag noch und auf Wiedersehen!👋'
             success = self.send_message()
         
